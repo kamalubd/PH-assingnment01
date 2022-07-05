@@ -1,3 +1,124 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+#top-banner {
+    background-image: url(images/donation8.jpg);
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 800px;
+    color: rgb(213, 226, 217);
+    text-align: center;
+    margin-left: 20px;
+    
+}
+
+.banner-texts {
+    padding-top: 250px;
+}
+
+.banner-texts h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.banner-texts p {
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.banner-texts a {
+    background-color: rgb(11, 153, 248);
+    padding: 20px 40px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#donation-amount {
+    text-align: center;
+}
+
+.choose-amount {
+    display: inline;
+}
+
+.donation-plan-list {
+    display: flex;
+}
+
+#volunteer {
+    display: flex;
+    background-color: wheat;
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 30px;
+    color: rgb(92, 90, 90);
+}
+
+.half-width {
+    width: 50%;
+    height: 300px;
+    padding: 30px 0;
+
+}
+
+.half-width h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.half-width p {
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 30px;
+    margin-left: 20px;
+}
+
+.half-width img {
+    width: 70%;
+    padding-left: 40px;
+
+}
+
+.half-width a {
+    text-decoration: none;
+    padding: 20px 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+#gallery {
+    border: 15px solid rgba(128, 128, 128, 0.411);
+    border-radius: 20px;
+    margin-top: 50px;
+    height: 400px;
+}
+
+#gallery h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.gallery-images {
+    display: flex;
+    margin-left: 40px;
+}
+
+.gallery-images img {
+    width: 22%;
+    padding: 0 13px;
+}
+
+#subscription {
+    text-align: center;
+}
