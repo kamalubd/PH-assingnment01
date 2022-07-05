@@ -19,24 +19,26 @@
         </div>
     </section>
     <section id="donation-amount">
-        <div>
+        <div class="donation-amount-content">
             <h1>Let Make it Happen</h1>
             <p>Please Choose You Donated Amount below. Each Donation Will Help Someone To Fill Their Needs.</p>
-            <ul class="choose-amount"><li>100TK</li>
-            <li>200TK</li>
-            <li>500TK</li>
-            <li>1000TK</li>
-            <li>5000TK</li></ul>
+            <div class="choose-amount">
+                <div>100Tk</div>
+                <div class="default-amount">200Tk</div>
+                <div>500Tk</div>
+                <div>1000Tk</div>
+                <div>5000Tk</div>
+            </div>
             <form action="">
-                <input type="text" name="amount" value="Other Amount (Taka)"><br>
-                <input type="submit" value="Donate Now">
+                <input type="text" name="amount" id="other-amount" value="Other Amount (Taka)"><br>
+                <input type="submit" id="submit-button" value="Donate Now">
             </form>
         </div>
     </section>
     <section id="donation-plan">
-        <div>
+        <div class="plan-content">
             <h1>Our Donation Plan</h1>
-            <p>We Offer Donation For variety of Need. You can Check them Below</p>
+            <p>We Offer Donation For variety of Need. You can Check them Below. </br> Choose an Option to support a Family food or Shelter or Education for a Child.</p>
         </div>
         <div class="donation-plan-list">
         <div class="family-plan">
@@ -83,9 +85,9 @@
         <div>
         <h1>Stay Updated</h1>
         <p>Subscribe Below to Stay updated with US for Event & Donations.</p>
-        <form action="">
-            <input type="text" name="mail" value="Email">
-            <input type="submit" value="Subscribe">
+        <form  id="subscription-form"action="">
+            <input type="text" id="email-form" name="mail" value="Email">
+            <input type="submit" id="email-submit" value="Subscribe">
         </form>
         </div>
     </section>
