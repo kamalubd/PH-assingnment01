@@ -7,7 +7,7 @@ body {
     background-repeat: no-repeat;
     width: 1200px;
     height: 700px;
-    color: rgb(213, 226, 217);
+    color:white;
     text-align: center;
     margin-left: 70px;
     
@@ -20,15 +20,21 @@ body {
 .banner-texts h1{
     font-size: 40px;
     font-weight: 800;
+    background-color: rgba(128, 128, 128, 0.39);
 }
 
 .banner-texts p {
     padding-bottom: 20px;
     font-size: 20px;
     font-weight: 400;
+    background-color: rgba(128, 128, 128, 0.39);
 }
 
-.banner-texts a {
+.top-donate-btn {
+    margin-top: 60px;
+}
+
+.top-donate-btn a {
     background-color: rgb(11, 153, 248);
     padding: 20px 40px;
     border-radius: 40px;
@@ -187,7 +193,7 @@ body {
 #gallery {
     border: 15px solid rgba(128, 128, 128, 0.411);
     border-radius: 20px;
-    margin-top: 50px;
+    margin-top: 150px;
     height: 400px;
 }
 
@@ -206,6 +212,10 @@ body {
 .gallery-images img {
     width: 22%;
     padding: 0 13px;
+}
+
+#subscription {
+    margin-top: 100px;
 }
 
 
@@ -253,4 +263,8 @@ body {
     margin: 100px 0 0 0;
     padding: 20px 0;
 
+}
+
+#footer h1 {
+    font-family: Comic Sans MS;
 }
